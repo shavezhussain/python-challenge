@@ -3,7 +3,7 @@
 import csv
 
 # Get the path of the CSV file
-file_path = 'C://Users//sowmi//Documents//GitHub//kousalya16.github.io//python-challenge//PyPoll//Resources//election_data.csv'  # Replace with the actual file path
+file_path = 'C://Users//user//Documents//GitHub//python-challenge//PyPoll//Resources//election_data.csv'  # Replace with the actual file path
 
 
 def PyPoll(file_path):
@@ -57,7 +57,7 @@ for line in result_lines:
     print(line)
 
 # Save results to a text file
-output_file_path = 'C://Users//sowmi//Documents//GitHub//kousalya16.github.io//python-challenge//PyPoll//analysis//election_results.txt'
+output_file_path = 'C://Users//user//Documents//GitHub//python-challenge//PyPoll//analysis//election_results.txt'
 with open(output_file_path, 'w') as txtfile:
     txtfile.write("\n".join(result_lines))
     
@@ -67,7 +67,7 @@ with open(output_file_path, 'w') as txtfile:
 
 print("\n\nConsidering a sample test case with just 15 rows")
 
-test_case_file_path="C://Users//sowmi//Documents//GitHub//kousalya16.github.io//python-challenge//PyPoll//Resources//election_data_few.csv"
+test_case_file_path="C://Users//user//Documents//GitHub//python-challenge//PyPoll//Resources//election_data_few.csv"
 test_result_lines=PyPoll(test_case_file_path)
 
 for line in test_result_lines:
