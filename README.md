@@ -1,6 +1,5 @@
 # Python Challenge: PyBank and PyPoll
 
-
 ## Project Description
 
 Welcome to the Python Challenge: PyBank and PyPoll! This project involves creating Python scripts to analyze financial and election data, showcasing your data processing and analysis skills. The two assignments, PyBank and PyPoll, require you to process CSV files, perform calculations, and generate insightful reports. By completing these assignments, you'll demonstrate your ability to extract meaningful information from data and present it clearly.
